@@ -1,0 +1,213 @@
+@import url(../css/reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+body {
+    background-color: #000000;
+    width: 100%;
+    font-family: Raleway;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/assets/images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: #33A8DB;
+    text-decoration: NONE;
+    font-weight: bold;
+}
+
+
+header {
+    width: 100%;
+    height: 605px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#33A8DB00, #2a5f8566, #33A8DB00);
+
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    padding: 0px;
+}
+
+h1 {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    color: #33A8DB;
+    background: linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+h1 + p {
+    margin-top: 20px;
+    width: 600px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px;
+    line-height: 25px;
+}
+
+button {
+    border: 2px solid #2a597a;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    color: #33A8DB;
+    background: linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+}
+
+section {
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #2a597a;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    color: #33A8DB;
+    text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+
+h2 + p {
+    margin-top: 20px;
+    width: 800px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.module {
+    border: 2px solid #33A8DB;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 500px;
+    height: 50px;
+    font-weight: 400;
+    text-align: center;
+    align-content: space-around;
+    color: #33A8DB;
+    background-color: #222222;
+    color: #FFFFFF;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+.modules-list {
+    margin-bottom: 80px;
+}
+
+span {
+    color: #33A8DB;
+}
+
+section + #transform-world {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-image: url(/assets/images/woman-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+}
+
+#transform-world p {
+    width: 280px;
+    text-transform: lowercase;
+    filter: drop-shadow(5 5  #33A8DB);
+    -webkit-filter: drop-shadow(3px 3px #33A8DB);
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: 200px;
+}
+
+section + #professional-challenges h2 {
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+#professional-challenges {
+    width: auto;
+    text-align: center;
+    line-height: 1.2;
+    word-break: normal;
+    padding: 0px 550px  80px 550px;
+    border-bottom: 1px solid #2a597a;
+}
+
+#professional-challenges img {
+    margin-bottom: 40px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(black, #2d56746b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    margin-top: 5px;
+}
+
