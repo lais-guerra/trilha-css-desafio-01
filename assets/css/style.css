@@ -18,7 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(/assets/images/banner.png);
+    background-image: url(assets/images/banner.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -159,7 +159,7 @@ section + #transform-world {
     height: 500px;
     margin-bottom: 0px;
     margin-left: 0px;
-    background-image: url(/assets/images/woman-code.png);
+    background-image: url(assets/images/woman-code.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
